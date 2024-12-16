@@ -1,0 +1,219 @@
+#Flag{
+	border: dashed;
+}
+
+.container{
+	display:flex;
+}
+
+#listed ol{
+	font-family: "Arial";
+	padding: 20px;
+	background-color: khaki;
+	text-align: center;
+}
+
+#Flag:hover{
+	filter: grayscale(80%);
+	transition:2s;
+}
+
+.container a{
+	display: flex;
+	flex: 1;
+	background-color: cyan;
+}
+
+#banner h1{
+	justify-content:center;
+}
+
+.stuffs{
+	background-color: green;
+	color: rgb(255,250,255);
+	text-shadow: 2px 2px cyan;
+}
+
+span #hi:hover{
+	background-color: rgb(12,200,48);
+	transition: 0.8s;
+}
+
+span #hey:hover{
+	background-color: rgb(12,200,48);
+	transition: 0.8s;
+}
+
+
+span #hello:hover{
+	background-color: rgb(12,200,48);
+	transition: 0.8s;
+}
+
+body{
+	background-color: rgba(213, 189, 210, 12);
+}
+
+#title{
+	justify-content: center;
+}
+
+.top{
+	display: flex;
+	flex: 1;
+}
+
+#footer{
+	background-color: firebrick;
+	border: 2px solid red;
+	border-radius: 5px;
+}
+
+
+/* Page 1 */
+
+.yum a{
+	text-decoration: none;
+}
+
+#yummy{
+	border: solid 2px brown;
+	background-color: white;
+}
+
+#yummy:hover{
+	background-color: purple;
+	transition: 1s;
+}
+
+.picguy{
+	border: dashed 3px yellow;
+	border-radius: 20px;
+}
+
+.picguy:hover{
+	rotate: 90deg;
+	transition: 1s;
+}
+
+.parafood p{
+	margin: 10px;
+	background-color: orange;
+	font-family: "Georgia";
+	color: purple;
+}
+
+#foods{
+	display: flex;
+	flex-direction: row;
+}
+
+#meaty{
+	display: flex;
+	flex: 1;
+	border: solid 20px black;
+	border-radius: 20px;
+}
+
+#gado{
+	display: flex;
+	flex: 1;
+	border: solid 20px teal;
+	border-radius: 20px;
+}
+
+
+
+.Title h1{
+	justify-content: center;
+}
+
+/* Page 2 */
+
+#context{
+	background-color: pink;
+}
+
+.yap div{
+	height:100px;
+	font-family: "Helvetica";
+	color: brown;
+	overflow: auto;
+}	
+
+.war img:hover{
+	filter: invert(90%);
+	rotate: 10deg;
+	transition: 1.4s;
+}
+
+.war{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+.tank img{
+	height: 178px;
+}
+
+.gang img{
+	width:170px;
+	height:178px;
+}
+
+.forest img{
+	width:170px;
+	height:178px;
+}
+
+.homies img{
+	width:170px;
+	height:178px;
+}
+
+.sigma img{
+	width:170px;
+	height:178px;
+}
+
+.family img{
+	width:170px;
+	height:178px;
+}
+
+.chad img{
+	width:170px;
+	height:178px;
+}
+
+
+#dead{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+/* Page 3 */
+
+.temple:hover{
+	filter:drop-shadow(8px 8px 10px gray);
+}
+
+#box{
+	display: flex;
+	flex-direction: column;
+}
+
+#hot{
+	padding:50px;
+}
+
+#cold img{
+	width: 100%;
+	height: 60vh;
+}
+
+#cold img:hover{
+	filter: contrast(200%);
+}
